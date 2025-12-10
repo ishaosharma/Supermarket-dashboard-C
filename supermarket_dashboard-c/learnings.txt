@@ -1,0 +1,57 @@
+NumPy: Data manipulation
+Matplotlib: Creating charts and visualizations
+Streamlit: Building web dashboards
+MVT Architecture: Organizing code professionally
+Data Cleaning: Handling missing values
+Data Analysis: Calculating insights from raw data
+
+
+
+MVT stands for:
+Model: Handles data (loading CSV, cleaning, calculations)
+View: Business logic (what to show, how to process)
+Template: UI (Streamlit interface that users see)
+
+Think of it like a restaurant:
+Model = Kitchen (prepares food/data)
+View = Waiter (decides what to serve)
+Template = Dining area (where customers eat/see results)
+
+
+What each library does:
+
+numpy: Fast math operations on arrays
+matplotlib: Creating charts (bar, line, pie)
+streamlit: Building web interface
+
+
+
+🎯 What We Can Analyze From Your Dataset
+Looking at your supermarket data, we can show:
+
+Sales Over Time - Which months had most sales?
+Branch Performance - Which branch (A, B, C) sells most?
+Product Line Analysis - Which products are popular?
+Customer Type - Members vs Normal customers
+Payment Methods - Cash, Ewallet, Credit card usage
+Gender Analysis - Male vs Female shopping patterns
+City Comparison - Yangon, Mandalay, Naypyitaw
+Rating Distribution - Customer satisfaction
+
+
+
+model.py - Handles data
+view.py - Processes data
+template.py - Shows dashboard
+app.py - Main program
+
+
+
+USER (Customer)
+    ↓
+TEMPLATE (Dining Area) ← Shows food, takes orders
+    ↓
+VIEW (Waiter) ← Decides what to serve
+    ↓
+MODEL (Kitchen) ← Prepares food/data
+
